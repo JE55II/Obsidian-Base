@@ -53,9 +53,6 @@ await tp.file.move(`${newFolder}/${titleName}`)
 ### Heure de fin : [HH:mm]
 
 ---
-##### Properties
-TOBEFILLED
----
 Duplicated/Link of 
 
 Date et heure : 
