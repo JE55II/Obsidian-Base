@@ -1,18 +1,18 @@
-Yo, 
-Bienvenue, 
-Tu as fait la pas et a décidé de ne pas écouter Mr Aigri et tu veux utiliser un véritable outil fonctionnel pour organiser ton taf mieux que certains (je tairais les noms), si oui BIENVENUE 🥳 
-Obsidian, cet outil merveilleux qui permets de faire plein de trucs et d'organiser au mieux et facilement.
+Hey, 
+Welcome, 
+You took the plunge and decided not to listen to Mr. Grumpy, and you want to use a real, functional tool to organize your work better than some people (I won’t name names). If so, WELCOME 🥳 
+Obsidian, this wonderful tool that lets you do all sorts of things and organize your work easily and effectively.
 
-**Ce README et ce REPO seront mis a jour quand j'aurais le temps de le faire**
+**This README and this REPO will be updated when I have time to do so**
 
 # Intro
 
-Alors oui, au début c'est déconcertant, c'est moche et vide :
+So yeah, at first it’s confusing—it’s ugly and empty:
 ![[Base-Obsidian-fig1.png|562]]
 
-Mais on va faire en sorte que ca devienne tout joli tout beau et pratique, ce repo est mon setup perso, libre a toi d'explorer les plugins, le code et tout ce qui s'en suit, le monde est libre, je ne fais que vivre dedans. 
-> Notes : 
-> <font color="#ff0000">⚠</font> tu te perds **très** vite dans les dossiers, les plugins les fichiers il est donc intéressant de faire attention a un suivi et un mode de fonctionnement qui passe et fonctionne pour **toi**.
+But we’re going to make it all nice, pretty, and practical. This repo is my personal setup; feel free to explore the plugins, the code, and everything that comes with it. The world is open; I’m just living in it. 
+> Notes: 
+> <font color="#ff0000">⚠</font> You can get lost **very** quickly in the folders, plugins, and files, so it’s a good idea to keep track of things and find a workflow that works for **you**.
 
 # Sommaire
 [[Obsidian Setup#Intro|Intro]]
@@ -31,35 +31,35 @@ Mais on va faire en sorte que ca devienne tout joli tout beau et pratique, ce re
 [[#Templates de notes]]
 	
 ---
-# Ressources
+# Resources
 
-## Setup de base
-### Paramètres
+## Basic Setup
+### Settings
 #### Options
 ##### General
-infos de compte et licence si tu paye, check mise à jour, t'es une feignasse et a un cerveau, autorise les MAJ automatiques.
+Account and license info if you're paying; check for updates; if you're lazy and have a brain, enable automatic updates.
 
-##### Editeur
-A changer selon tes envies, oui il y a des bindings Vim espèce de nerd, va prendre une douche 🚿
+##### Editor
+Change this to whatever you like—yes, there are Vim bindings, you nerd, go take a shower 🚿
 
-##### Fichier et liens
-Quelques petits détails a changer ici pour le setup plus tard : 
-- <mark style="background:rgba(160, 204, 246, 0.55)">"Confirm file deletion"</mark> Est-Tu ceRtaIn dE voULoiR suPpRimeR le fIcHIer ?*
-- <mark style="background:rgba(160, 204, 246, 0.55)">"Deleted Files"</mark> System trash si balec, Obsidian Trash si tu n'est jamais sur de ce que tu fais
-- <mark style="background:rgba(160, 204, 246, 0.55)">"Automatic update internal links"</mark> **OUI**, tu le mets CLIQUE DESSUS (en vrai c'est pratique pour organiser et garder de la cohérence quand tu commence a avoir beaucoup de notes et dossiers)
-- <mark style="background:rgba(160, 204, 246, 0.55)">"Default location for new notes"</mark> perso je mets "same folder as current file" c'est plus rapide a organiser qu'essayer de fouiller et retrouver la note que tu viens de faire pour la ranger
-- <mark style="background:rgba(160, 204, 246, 0.55)">"New link format"</mark> laisse au plus rapide, on est efficace ici 
-- <mark style="background:rgba(160, 204, 246, 0.55)">"Use Wikilinks</mark>" si tu veux avoir des liens cliquables propres et rapides a faire qui t'ameneront ou ton cœur le désire ``[[#Files and Links]] [[Obsidian Setup#Files and Links]]``
-- <mark style="background:rgba(160, 204, 246, 0.55)">"Detect all file extensions"</mark> oui si tu prévois d'avoir tout et n'importe quoi dans tes dossiers (PDF, JPG, EXEL, ...) en vrai c'est pratique
-- <mark style="background:rgba(160, 204, 246, 0.55)">"Default location for new attachements"</mark> comme tu préfère, perso j'aime avoir les images correspondantes a ce sur quoi je bosse dans le meme dossier donc je prends "in subfolder under current folder" et je spécifie "📷pictures"
+##### File and Links
+A few small details to change here for the setup later: 
+- <mark style="background:rgba(160, 204, 246, 0.55)">“Confirm file deletion”</mark> Are you sure you want to delete the file?*
+- <mark style="background:rgba(160, 204, 246, 0.55)">“Deleted Files”</mark> System trash if you're cool with it, Obsidian Trash if you're never sure what you're doing
+- <mark style="background:rgba(160, 204, 246, 0.55)">“Automatic update internal links”</mark> **YES**, check this box (it’s actually handy for organizing and maintaining consistency when you start accumulating a lot of notes and folders)
+- <mark style="background:rgba(160, 204, 246, 0.55)">“Default location for new notes”</mark> Personally, I set it to “same folder as current file”—it’s faster to organize than trying to dig through and find the note you just made to file it
+- <mark style="background:rgba(160, 204, 246, 0.55)" >“New link format”</mark> leave it to the fastest option; we're efficient here
+- <mark style="background:rgba(160, 204, 246, 0.55)">“Use Wikilinks</mark>” if you want clean, clickable links that are quick to create and will take you wherever your heart desires``[[#Files and Links]] [[Obsidian Setup#Files and Links]]``
+- <mark style="background:rgba(160, 204, 246, 0.55)">“Detect all file extensions”</mark> Yes, if you plan to have all sorts of files in your folders (PDF, JPG, EXCEL, etc.), it's actually quite handy
+- <mark style="background:rgba(160, 204, 246, 0.55)">“Default location for new attachments”</mark> whatever you prefer; personally, I like to have the images related to what I'm working on in the same folder, so I choose “in subfolder under current folder” and specify “📷pictures”
 
-le reste balec c'est de la customisation perso donc a toi de voir avec le temps
+The rest doesn’t matter—it’s just personal customization, so it’s up to you to figure it out over time
 
 ---
 ## Plugins / Modules
 
-On aime les Plugins, c'est rapide, pratique et permets tout plein de chose merveilleuses, ici on aborde les [[##Plugins Core]] et les [[##Plugins Communautaires]] (ceux-ci peuvent être menés a changer en fonction de l'utilité de chaque).
-La config de chaque plugin est a adapter a tes besoins, recommandation perso utilise le MEME format de date et heure partout entre obsidian de base et les plugins (oui j'ai eut des problèmes a cause de ça)
+We love plugins—they’re fast, convenient, and let you do all sorts of amazing things. Here, we’ll cover [[##Core Plugins]] and [[##Community Plugins]] (the latter may vary depending on their specific use).
+You should configure each plugin to suit your needs. My personal recommendation is to use the SAME date and time format everywhere—both in the base Obsidian app and in the plugins (yes, I’ve had issues because of this).
 
 ---
 ### Plugins Core / Modules Principaux
@@ -97,62 +97,61 @@ La config de chaque plugin est a adapter a tes besoins, recommandation perso uti
 ---
 ### Plugins / Modules Communautaires [TO DO]
 
-[Calendar](https://github.com/liamcain/obsidian-calendar-plugin) avoir un zoli calendrier dans sa note histoire de savoir si ce soir ca sort et ca boit ou non
-[Dataview](https://github.com/blacksmithgu/obsidian-dataview) pas utilisé a sa juste valeur mais permets d'avoir des données sur globalement tout dans les notes ou en dehors via une API Javascript
-[Editing Toolbar](https://github.com/cumany/obsidian-editing-toolbar) si tu ne connais pas les raccourcis de traitement de texte
-[Emoji Shortcodes](https://github.com/phibr0/obsidian-emoji-shortcodes) parceque tout le monde sait écrire :smile 🤓
-[File Color](https://github.com/ecustic/obsidian-file-color) les couleurs c pour les gays (non, 'fin pas que)
-[Garble text](https://github.com/kurakart/garble-text) permets de prendre des captures d'acran de ton obsidian en censurant le texte
-[Mind Map](https://github.com/lynchjames/obsidian-mind-map) 
-[Multi-Column Markdown](https://github.com/ckRobinson/multi-column-markdown) permets de trier si besoin et organiser les sujets et paragraphes d'une note
-[Natural Language Dates](https://github.com/argenos/nldates-obsidian) permets un @Today pour avoir la date du jour en Wikilink
-[Omnisearch](https://github.com/scambier/obsidian-omnisearch) l'oeuil de BigBrother qui sait tout et trouve tout dans tes notes, PDFS, Images etc (pratique)
-[Sheets Extended](https://github.com/NicoNekoru/obsidan-advanced-table-xt) permets des tableaux plus éditables et utilisables 
-[Tasks](https://github.com/obsidian-tasks-group/obsidian-tasks) parceque c'est pratique d'avoir les dates sur les listes de choses a faire
-[Templater](https://github.com/SilentVoid13/Templater) U TILE permets l'automatisation de tout a condition d'utiliser du Yaml
-[Text Extractor](https://github.com/scambier/obsidian-text-extractor) permets de sortir le texte d'images et de PDF sans utiliser d'IA (parceque l'OCR ca existe, calme ton GPT titouan)
-[Widgets](https://github.com/rafaelveiga/obsidian-widgets) permets d'avoir des widgets utiles dans une note
-[Image Converter](https://github.com/xryul/obsidian-image-converter) permets d'éditer grossièrement des images directement dans obsidian sans passer par paint
+[Calendar](https://github.com/liamcain/obsidian-calendar-plugin) have a nice calendar in your notebook so you know whether you're going out and drinking tonight or not
+[Dataview](https://github.com/blacksmithgu/obsidian-dataview) It isn't used to its full potential, but it allows you to access data on just about everything, whether in the notes or elsewhere, via a JavaScript API
+[Editing Toolbar](https://github.com/cumany/obsidian-editing-toolbar) if you're not familiar with word processing shortcuts
+[Emoji Shortcodes](https://github.com/phibr0/obsidian-emoji-shortcodes) because everyone knows how to write :smile 🤓
+[File Color](https://github.com/ecustic/obsidian-file-color) Those colors are for gay people (well, not just them)
+[Garble text](https://github.com/kurakart/garble-text) allows you to take screenshots of your Obsidian while blurring the text
+[Multi-Column Markdown](https://github.com/ckRobinson/multi-column-markdown) allows you to sort and organize the topics and paragraphs of a note as needed
+[Natural Language Dates](https://github.com/argenos/nldates-obsidian) Use @Today to get today's date as a Wikilink
+[Omnisearch](https://github.com/scambier/obsidian-omnisearch) Big Brother's watchful eye, which knows everything and finds everything in your notes, PDFs, images, etc. (handy)
+[Sheets Extended](https://github.com/NicoNekoru/obsidan-advanced-table-xt) makes tables more editable and user-friendly 
+[Tasks](https://github.com/obsidian-tasks-group/obsidian-tasks) because it's handy to have the dates on your to-do lists
+[Templater](https://github.com/SilentVoid13/Templater) DAMN USEFUL, allows you to automate everything, provided you use YAML
+[Text Extractor](https://github.com/scambier/obsidian-text-extractor) lets you extract text from images and PDFs without using AI (because OCR exists, so calm down, GPT)
+[Widgets](https://github.com/rafaelveiga/obsidian-widgets) allows you to include useful widgets in a note
+[Image Converter](https://github.com/xryul/obsidian-image-converter) allows you to do basic image editing directly in Obsidian without having to use Paint
 
 ---
 ## Résultat : 
 
-Les plugins permettent de passer de Virgin Obsidian : 
+Plugins allow you to switch from Virgin Obsidian : 
 ![[../📷 pictures/image-1.png]]
 
-a Chad Setup :  (oui tout est anonymisé, duh)
+to Chad Setup: (yes, everything is anonymized, duh)
 ![[../📷 pictures/image-2.png]]
 
 ---
 ## Exemples de notes
 
-Tu trouvera ici quelque uns des templates de notes utiles pour ton taf (Investigation, Dossier Client, Meetings, ...)
-A toi de les personnaliser selon tes envies et préférences mais ca permets d'avoir une trame redondante pour tout le monde
+Here you'll find some useful note templates for your work (Investigation, Client File, Meetings, etc.)
+Feel free to customize them however you like, but this provides a consistent framework for everyone
 
 [[Soc Investigation]]
-[[Month - Client_name]] (un #template a été fait afin d'automatiser la création de notes)
-[[Daily Task Tracker]] (a mettre a jour avec les taches quotidiennes si possible afin de garder un suivi)
+[[Month - Client_name]] (a #template has been created to automate note generation)
+[[Daily Task Tracker]] (update with daily tasks whenever possible to keep track)
 
 ## Notes utiles
 
-Ici tu aura quelques notes utiles pour ton taf quotidien au SOC
+Here are some useful notes for your day-to-day work at the SOC
 
-[[SLA Justify 1]] en cas de dépassement de SLA (évite) voici quelques exemples de justifications
-[[💀 EOL OS 1]] Dates de fin de support d'OS (mets à jour, ajoute, retire, soit libre)
-[[Spam response 1]] liste de réponses pré-faites pour des alertes régulières qu'on reçoit cherche par # cohérent
-[[CR Clients 1]] parceque Jihane VA t'embéter avec quand tu fera des CR
+[[SLA Justify 1]] In case of SLA violations (try to avoid them), here are some examples of justifications
+[[💀 EOL OS 1]] OS end-of-life dates (update, add, remove—feel free)
+[[Spam response 1]] List of pre-written responses for common alerts we receive; search by relevant hashtag
+[[Customer Reports 1]] Because someone is going to give you a hard time about this when you submit reports
 
 ## Automatisation
 
-C'est ici que ca deviens drole, si tu as le plugin "Templater" tu peux automatiser la création de notes avec une trame déjà établie (surement plus mais a ce jour c'est ce qui est en place)
-Les automatisations sont en Yaml donc souples et rapides à mettre en place  
+This is where it gets interesting: if you have the “Templater” plugin, you can automate the creation of notes using a predefined template (there are probably more features, but this is what’s currently available).
+The automations are written in YAML, so they’re flexible and quick to set up.  
 
-la commande pour une nouvelle note via Templater : ``Alt + n`` 
+The command for creating a new note using Templater : ``Alt + n`` 
 
-Ce qui te donne une liste des exemples dans ton dossier [Templates] 
+This gives you a list of examples in your [Templates] folder 
 
-Voici quelques exemples de notes pré-faites que j'ai mit en place : 
-[[-astreinte]] quand tu fera des astreintes, c'est l'équivalent de "soc investigation" mais avec des détails en plus pour l'astreinte, un tri (a modifier selon ton organisation) l'ajout de la date et l'heure de prise en charge
-[[🛠️ Projets/Obsidian project/Setup/-meeting]] pour les points clients (actuellement choix entre : "monthly, trimestriel et workshop") avec les infos nécessaires (si tu n'est pas sur la liste des analystes modifie ton code)
+Here are a few examples of pre-made notes I’ve set up:
+[[-on-call]] when you’re on call—this is the equivalent of “soc investigation” but with additional details for the on-call shift, a sorting option (to be modified according to your organization), and the addition of the date and time of the shift
+[[🛠️ Projects/Obsidian project/Setup/-meeting]] for client meetings (currently a choice between: “monthly, quarterly, and workshop”) with the necessary information (if you're not on the list of analysts, update your code)
 
 ---
