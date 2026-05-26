@@ -8,7 +8,7 @@ Obsidian, this wonderful tool that lets you do all sorts of things and organize 
 # Intro
 
 So yeah, at first it’s confusing—it’s ugly and empty:
-![[Base-Obsidian-fig1.png|562]]
+![[Setup2share/📷 pictures/Base-Obsidian-fig1.png]]
 
 But we’re going to make it all nice, pretty, and practical. This repo is my personal setup; feel free to explore the plugins, the code, and everything that comes with it. The world is open; I’m just living in it. 
 > Notes: 
