@@ -1,0 +1,20 @@
+formulas:
+  Sans titre: ""
+views:
+  - type: table
+    name: Tableau
+    filters:
+      or:
+        - file.inFolder("♻️ DailyNotes/Soc Operation/SocTickets")
+    order:
+      - file.name
+      - Client
+      - Alert name
+      - date
+      - tags
+    sort:
+      - property: file.mtime
+        direction: DESC
+    columnSize:
+      file.name: 108
+      file.mtime: 179

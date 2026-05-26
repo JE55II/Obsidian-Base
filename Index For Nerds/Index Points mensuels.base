@@ -1,0 +1,38 @@
+formulas:
+  Customer Tag: ""
+properties:
+  note.tags:
+    displayName: Customer Tag
+views:
+  - type: table
+    name: Tableau
+    filters:
+      and:
+        - file.ext == "md"
+        - file.folder.startsWith("🏢 Clients/📊 Points Mensuels")
+    order:
+      - file.name
+      - date
+      - type
+      - month
+      - client
+      - fournisseur
+    sort:
+      - property: date
+        direction: DESC
+      - property: file.name
+        direction: DESC
+      - property: formula.Customer tag
+        direction: DESC
+      - property: file.ctime
+        direction: DESC
+      - property: formula.Workshop
+        direction: DESC
+    columnSize:
+      file.name: 207
+      file.ctime: 176
+  - type: cards
+    name: Cartes
+    imageFit: contain
+    imageAspectRatio: 0.55
+    cardSize: 220

@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"87cf9967964e7a56","x":-255,"y":-279,"width":195,"height":50,"type":"text","text":"📂 CR Maker Folder"},
+		{"id":"2c4b8bf5ae618448","x":-282,"y":-200,"width":250,"height":50,"type":"text","text":"Drop all .md"},
+		{"id":"736e2832d32d9f3c","x":-309,"y":-120,"width":304,"height":50,"type":"text","text":"Open ``python \"CR Maker MK1.py\"``"},
+		{"id":"79c274d864e9d761","x":-322,"y":-40,"width":329,"height":56,"type":"text","text":"Prompt user the list of all .md in folder"},
+		{"id":"7b0e70487aca1b68","x":-351,"y":40,"width":389,"height":160,"type":"text","text":"Ask for selection (what .md is what operator) : \n- Bytel\n- SFR\n- Five9s\n- Resoprint"},
+		{"id":"9990950f86675b7e","x":-286,"y":240,"width":260,"height":60,"type":"text","text":"Assign the correct Css class regarding the operator choice"},
+		{"id":"9054178d50100eef","x":-214,"y":340,"width":113,"height":51,"type":"text","text":"Output :"},
+		{"id":"35524f9a7ff4871f","type":"text","text":"SFR : \n CR Client 1\n CR Client 2\n CR Client 3","x":-347,"y":580,"width":153,"height":118},
+		{"id":"eb89186b0629c705","type":"text","text":"Five9s : \n CR Client 1\n CR Client 2\n CR Client 3","x":-146,"y":580,"width":153,"height":118},
+		{"id":"03cae1afc6b87eda","type":"text","text":"Resoprint : \n CR Client 1\n CR Client 2\n CR Client 3","x":55,"y":580,"width":153,"height":118},
+		{"id":"76a627e0990d03d2","x":-540,"y":580,"width":153,"height":118,"type":"text","text":"Bytel : \n CR Client 1\n CR Client 2\n CR Client 3"},
+		{"id":"ef3eb9df347bde3b","type":"text","text":"📂 Clean CR Folder","x":-264,"y":800,"width":195,"height":50}
+	],
+	"edges":[
+		{"id":"70d5853f7cba5ca2","fromNode":"87cf9967964e7a56","fromSide":"bottom","toNode":"2c4b8bf5ae618448","toSide":"top"},
+		{"id":"80dcc72e19654698","fromNode":"2c4b8bf5ae618448","fromSide":"bottom","toNode":"736e2832d32d9f3c","toSide":"top"},
+		{"id":"c3f631bc14e46de8","fromNode":"736e2832d32d9f3c","fromSide":"bottom","toNode":"79c274d864e9d761","toSide":"top"},
+		{"id":"7686bd401ba4c70d","fromNode":"79c274d864e9d761","fromSide":"bottom","toNode":"7b0e70487aca1b68","toSide":"top"},
+		{"id":"3aac0db511672feb","fromNode":"7b0e70487aca1b68","fromSide":"bottom","toNode":"9990950f86675b7e","toSide":"top"},
+		{"id":"6ce12a912256c75e","fromNode":"9990950f86675b7e","fromSide":"bottom","toNode":"9054178d50100eef","toSide":"top"},
+		{"id":"788d71a381e63b3d","fromNode":"9054178d50100eef","fromSide":"bottom","toNode":"76a627e0990d03d2","toSide":"top"},
+		{"id":"2afb98b4d35bd452","fromNode":"9054178d50100eef","fromSide":"bottom","toNode":"35524f9a7ff4871f","toSide":"top"},
+		{"id":"3ed6ffc3391aa71c","fromNode":"9054178d50100eef","fromSide":"bottom","toNode":"eb89186b0629c705","toSide":"top"},
+		{"id":"7d16783bf4fdc487","fromNode":"9054178d50100eef","fromSide":"bottom","toNode":"03cae1afc6b87eda","toSide":"top"},
+		{"id":"636d3e13d5f79250","fromNode":"03cae1afc6b87eda","fromSide":"bottom","toNode":"ef3eb9df347bde3b","toSide":"top"},
+		{"id":"eacd70c98266fb76","fromNode":"eb89186b0629c705","fromSide":"bottom","toNode":"ef3eb9df347bde3b","toSide":"top"},
+		{"id":"4dde598a76b691b2","fromNode":"35524f9a7ff4871f","fromSide":"bottom","toNode":"ef3eb9df347bde3b","toSide":"top"},
+		{"id":"a3a6a3f63c4850ab","fromNode":"76a627e0990d03d2","fromSide":"bottom","toNode":"ef3eb9df347bde3b","toSide":"top"}
+	]
+}
