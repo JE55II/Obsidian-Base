@@ -15,8 +15,8 @@ But we’re going to make it all nice, pretty, and practical. This repo is my pe
 > <font color="#ff0000">⚠</font> You can get lost **very** quickly in the folders, plugins, and files, so it’s a good idea to keep track of things and find a workflow that works for **you**.
 
 # Sommaire
-[[Obsidian Setup#Intro|Intro]]
-[[#Sommaire]]
+[[Obsidian Setup#Intro|Intro]]<br>
+[[#Sommaire]]<br>
 [[#Ressources]]
 [[#Setup de base]]
 	[[#Paramètres]]
