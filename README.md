@@ -4,6 +4,7 @@ You took the plunge and decided not to listen to Mr. Grumpy, and you want to use
 Obsidian, this wonderful tool that lets you do all sorts of things and organize your work easily and effectively.
 
 **This README and this REPO will be updated when I have time to do so**
+yes, yes this stuff has been GPTd, sorry not sorry, i really do not have time now to hand write it
 
 # HOW TO : 
 Just download all the "Setup2share" Folder, dump it in your vault, profit
